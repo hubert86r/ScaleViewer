@@ -1,0 +1,22 @@
+<!-- <div class="grid__item">
+  <div class="card">
+    <div class="card-image">
+      <img [src]="movie.image" />
+      <span class="card-title black">{{ movie[0].genre }}</span>
+    </div>
+    <div class="card-content">
+      <p>{{ movie[0].mass }}</p>
+      <p>{{ movie[0].status }}</p>
+    </div>
+    <div class="card-action">
+      <a class="black-text" [routerLink]="['/movie', movie.id]">More >></a>
+    </div>
+  </div>
+</div> -->
+
+<div class="scale">
+  <p>MASA: <b>{{ movie[0].mass }}</b></p>
+  <p>IP: <b>{{ movie[0].ip_address }}</b></p>
+  <!-- <p>NAZWA: <b> {{ movie[0].last_name }}</b></p> -->
+  <a class="black-text" [routerLink]="['/movie', movie[0].id]">More >></a>
+</div>

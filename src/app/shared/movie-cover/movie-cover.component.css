@@ -1,0 +1,43 @@
+img {
+  width: 234px;
+  height: 348px;
+}
+
+.grid__item {
+  max-width: 234px;
+  padding: 0 5px;
+}
+
+.card-content {
+  min-height: 180px;
+}
+
+.card-title {
+  width: 100%;
+}
+
+.black-text:hover {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.scale {
+  width: 250px;
+  height: 100px;
+  /* background-color: rgb(148, 148, 148);
+  background-color: #bdd4e7; */
+  /* background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%); */
+  /* background-color: #2a2a72; */
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+
+  border-radius: 10px;
+  margin: 10px;
+}
+
+p {
+  margin-left: 5px;
+}
